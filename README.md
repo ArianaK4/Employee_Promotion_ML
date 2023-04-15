@@ -1,6 +1,6 @@
 # Employee Promotion - Machine Learning 2023
 
-Content"
+Content:
 
 A large MNC have 9 broad verticals across the organisation. One of the problem is identifying the right people for promotion (only for manager position and below) and prepare them in time.
 
