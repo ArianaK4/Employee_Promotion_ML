@@ -1,39 +1,31 @@
-# Employee Promotion - Machine Learning 2023
+<h1> <b>Employees Promotion Prediction - Machine Learning 2023</b> </h1>
 
-Content:
+As part of Machine Learning project we will use an HR Dataset containing employees data taken by <a href="https://www.kaggle.com/datasets/arashnic/hr-ana">Kaggle</a>. </br>
+While using the dataset above we are trying to predict if an employee will be promoted or not and what are the factors that have an impact in employee promotion by using Machine Learning Algorithms.
 
-A large MNC have 9 broad verticals across the organisation. One of the problem is identifying the right people for promotion (only for manager position and below) and prepare them in time.
 
-The final promotions are only announced after the evaluation and this leads to delay in transition to new roles. Hence, company needs help in identifying the eligible candidates at a particular checkpoint so that they can expedite the entire promotion cycle.
+**Project steps that we will take:**
 
-Multiple attributes have been provided around Employee's past and current performance along with demographics.
-
-Features:
-
-employee_id: Unique ID for employee
-department: Department of employee
-region: Region of employment (unordered)
-education: Education Level
-gender: Gender of Employee
-recruitment_channel: Channel of recruitment for employee
-no_ of_ trainings: no of other trainings completed in previous year on soft skills, technical skills etc.
-age: Age of Employee
-previous_ year_ rating: Employee Rating for the previous year
-length_ of_ service: Length of service in years
-awards_ won?: if awards won during previous year then 1 else 0
-avg_ training_ score: Average score in current training evaluations
-is_promoted: (Target) Recommended for promotion
-
-About project
-We will predict whether an employee will be promoted or not. The steps that we will take include:
-
-- <ins><b>Data Preprocessing:</b></ins> the dataset will be preprocessed by removing irrelevant columns, handling missing values, 
-and cleaning the text data by removing stop words, punctuation, and special characters;
-- <ins><b>Exploratory Data Analysis (EDA):</b></ins> EDA will be performed to understand the distribution of fake and real news
-articles in the dataset;
-- <ins><b>Model Selection:</b></ins> for model selection we will use some supervised algorithms and also deep learning. Supervised
-models that we will use include: Linear Regression, Random Forest, Decision Tree, Naive-Bayes, Support Vector 
-Machines (SVMs);
-- <ins><b>Model Evaluation:</b></ins> we will evaluate the performance of the trained model on the testing data using metrics such as 
-accuracy, precision, recall, and F1-score.
-
+<ul>
+<li>Exploratory Data Analysis (EDA):
+    <ul>
+      <li>EDA will be performed to understand the distribution of promoted employees;</li>
+    </ul> 
+  </li>
+  <li>Data Preprocessing:
+    <ul>
+      <li>The dataset will be preprocessed by removing irrelevant columns, handling missing values, checking for outliers and more;
+      </li>
+    </ul>
+  </li>  
+  <li>Model Selection:
+    <ul>
+      <li>For model selection we will use some supervised algorithms and also deep learning. Supervised models that we will use include: Linear Regression, Random Forest, Decision Tree, Naive-Bayes, Support Vector Machines (SVMs)</li>
+    </ul>
+  </li>
+  <li>Model Evaluation:
+    <ul>
+      <li>We will evaluate the performance of the trained model on the testing data using metrics such as accuracy, precision, recall, and F1-score.</li>
+    </ul>
+  </li>
+</ul> 
