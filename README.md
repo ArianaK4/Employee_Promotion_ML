@@ -26,6 +26,10 @@ While using the dataset above we are trying to predict if an employee will be pr
   <li>Model Evaluation:
     <ul>
       <li>We will evaluate the performance of the trained model on the testing data using metrics such as accuracy, precision, recall, and F1-score.</li>
+        <li>We will try the 80/20 train_test_split and see if the accuracy gets better.</li>
+      <li>There will be a comparison between models both in a table form and graph form.</li>
+      <li>For the best performing algorithms we will check for the most import features.</li>
+      <li>We will do some real life examples regarding the employee promotion.</li>
     </ul>
   </li>
 </ul> 
