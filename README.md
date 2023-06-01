@@ -69,6 +69,20 @@ Naive Bayes  | 0.6688272836059035   | 0.6703230953330674
 SVM  | 0.7039289988033506   | 0.7092806807605372
 K-Nearest Neighbor  | 0.7040287195851616   | 0.699707485706688
 
+<p> From the results we can see that:</p>
+<ul>
+    <li>Random Forest and Decision Tree have performed the best in both ratios</li>
+    <li>Naive Bayes has performed the worst in both ratios.</li>
+    <li>The accuracies in both ratios show similar values. Some algorithms performed better with 0.3 such as: DT and RF and the other ones performed better with 0.2. This could mean different things like:
+        <ul>
+            <li>DT and RF tend to have higher model complexity and are more prone to overfitting. With a larger training set, these algorithms may have more data to learn from and can capture more intricate patterns in the data, resulting in better accuracy.</li>
+            <li>The train-test split can affect the distribution of data between the training and testing sets. Some algorithms may perform better when trained on a larger portion of the data, while others may benefit from a more balanced representation of the data in the test set.</li>
+            <li>The train-test split is often performed randomly, and the particular split can introduce some level of randomness. As a result, different train-test splits can lead to different performance outcomes for the algorithms</li>
+        </ul>
+    </li>
+</ul>
+
+
 <p> Calculating feature importance for best permorming algorithms </p>
 
 <p> Ranform Forest: </p>
@@ -102,6 +116,41 @@ no_of_trainings  | 0.023181
 education  | 0.015775   
 awards_won  | 0.003233   
 length_of_service  | 0.000000 
+
+<p>From the results of both algorithms we can see that:</p>
+<ul>
+    <li>The most important feature or attribute is previous_year_rating and this shows that previous_year_rating plays the biggest role in getting a promotion.</li>
+    <li>avg_training_score is also somewhat an important feature or attribute to employee promotion.</li>
+    <li>length_of_service is the feature or attribute that doesn't help in getting a promotion at all. This means that the amount of time you stay in a company doesn't indicate that you will get a promotion without doing a good work.</li>
+</ul>
+
+<p>We also did some questions related with this dataset and got interesting results:</p>
+
+<h3>Q1. Do older employees get more promotion than younger employees?</h3>
+<p>Youngest age is 20 and oldest age is  60.</p>
+<p>Total number of young employees is: 18118  and the total number of young employees promoted is: 1550
+Percentage of young employees promoted: 8.56%
+Total number of old employees is: 36690  and the total number of old employees promoted is: 3118
+Percentage of old employees promoted: 8.50%</p>
+
+<h3>Q2. What is the probability to get promoted, if an employee has won an award?</h3>
+<p>Total number of award winning employees is: 1270  and the total number of award winning employees promoted is: 559
+Probability of promotion for award-winning employees: 44.02%</p>
+
+<h3>Q3. What is the average training score of those employees who got promoted?</h3>
+<p>The Average Training Score for the Employees who got Promotion is 71</p>
+
+<h3>Q4. What is the impact of gender in promotions?</h3>
+<p>Female employees: 16312
+Male employees: 38496
+Male Promoted: 3201
+Female Promoted: 1467
+Percentage of female promoted employees is: 8.99%
+Percentage of male promoted employees is: 8.32%</p>
+
+<h3>Q5. What is the probability that a young and new employee will be promoted?</h3>
+<p>Total number of award winning employees is: 1270  and the total number of award winning employees promoted is: 559
+Probability of promotion for award-winning employees: 44.02%</p>
 
 <hr>
 <h5> Technologies </h5>
