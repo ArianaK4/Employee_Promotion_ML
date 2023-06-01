@@ -34,6 +34,76 @@ While using the dataset above we are trying to predict if an employee will be pr
   </li>
 </ul> 
 <hr>
+
+<h5>Results </h5>
+<p> Accuracy for 0.2 and 0.3</p>
+
+Model  | 80/20  | 70/30 
+------------- | -------------  | -------------
+Logistic Regression  | 0.6787495013960909   | 0.6821233878473607
+Random Forest  | 0.9419126445951336   | 0.9371426671985108
+Decision Tree  | 0.7953230953330674   | 0.8139875016620131
+Naive Bayes  | 0.6688272836059035   | 0.6703230953330674
+SVM  | 0.7039289988033506   | 0.7092806807605372
+K-Nearest Neighbor  | 0.7040287195851616   | 0.699707485706688
+
+<p> Train accuracy for 0.2 and 0.3</p>
+
+Model  | 80/20  | 70/30 
+------------- | -------------  | -------------
+Logistic Regression  | 0.6834737734343838   | 0.6803806484699982
+Random Forest  | 0.9950762863980853   | 0.9953131232548863
+Decision Tree  | 0.999   | 0.9994
+Naive Bayes  | 0.6808   | 0.667
+SVM  | 0.7424   | 0.738
+K-Nearest Neighbor  | 0.8062   | 0.8108
+
+<p> Test accuracy for 0.2 and 0.3</p>
+
+Model  | 80/20  | 70/30 
+------------- | -------------  | -------------
+Logistic Regression  | 0.6787495013960909   | 0.6821233878473607
+Random Forest  | 0.9419126445951336   | 0.9371426671985108
+Decision Tree  | 0.7953230953330674   | 0.8139875016620131
+Naive Bayes  | 0.6688272836059035   | 0.6703230953330674
+SVM  | 0.7039289988033506   | 0.7092806807605372
+K-Nearest Neighbor  | 0.7040287195851616   | 0.699707485706688
+
+<p> Calculating feature importance for best permorming algorithms </p>
+
+<p> Ranform Forest: </p>
+
+Feature  | Importance  
+------------- | -------------  
+previous_year_rating  | 0.282231   
+avg_training_score  | 0.225695   
+age  | 0.146223   
+region  | 0.126820   
+department  | 0.078141   
+recruitment_channel  | 0.050082   
+no_of_trainings  | 0.033952   
+gender  | 0.029571   
+education  | 0.022830   
+awards_won  | 0.004457   
+length_of_service  | 0.000000 
+
+<p> Decision Tree: </p>
+
+Feature  | Importance  
+------------- | -------------  
+previous_year_rating  | 0.382249   
+avg_training_score  | 0.210603   
+age  | 0.119504   
+region  | 0.118463   
+department  | 0.063634   
+recruitment_channel  | 0.040085   
+gender  | 0.023273   
+no_of_trainings  | 0.023181   
+education  | 0.015775   
+awards_won  | 0.003233   
+length_of_service  | 0.000000 
+
+<hr>
 <h5> Technologies </h5>
 <ul> 
     <li> Google Colaboratory </li>
@@ -41,6 +111,7 @@ While using the dataset above we are trying to predict if an employee will be pr
         <ul><li>Jupiter Notebook</li></ul></li>
 </ul>
 <hr>
+
 <h5>Creators</h5>
 <ul>
     <li>Ariana Kadriu</li>
