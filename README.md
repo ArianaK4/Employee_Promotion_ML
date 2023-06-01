@@ -128,29 +128,32 @@ length_of_service  | 0.000000
 
 <h3>Q1. Do older employees get more promotion than younger employees?</h3>
 <p>Youngest age is 20 and oldest age is  60.</p>
-<p>Total number of young employees is: 18118  and the total number of young employees promoted is: 1550
-Percentage of young employees promoted: 8.56%
-Total number of old employees is: 36690  and the total number of old employees promoted is: 3118
-Percentage of old employees promoted: 8.50%</p>
+<p>Total number of young employees is: 18118  and the total number of young employees promoted is: 1550</p>
+<p>Percentage of young employees promoted: 8.56%</p>
+<p>Total number of old employees is: 36690  and the total number of old employees promoted is: 3118</p>
+<p>Percentage of old employees promoted: 8.50%</p>
 
 <h3>Q2. What is the probability to get promoted, if an employee has won an award?</h3>
-<p>Total number of award winning employees is: 1270  and the total number of award winning employees promoted is: 559
-Probability of promotion for award-winning employees: 44.02%</p>
+<p>Total number of award winning employees is: 1270  and the total number of award winning employees promoted is: 559</p>
+<p>Probability of promotion for award-winning employees: 44.02%</p>
 
 <h3>Q3. What is the average training score of those employees who got promoted?</h3>
 <p>The Average Training Score for the Employees who got Promotion is 71</p>
 
 <h3>Q4. What is the impact of gender in promotions?</h3>
-<p>Female employees: 16312
-Male employees: 38496
-Male Promoted: 3201
-Female Promoted: 1467
-Percentage of female promoted employees is: 8.99%
-Percentage of male promoted employees is: 8.32%</p>
+<p>Female employees: 16312</p>
+<p>Male employees: 38496</p>
+<p>Male Promoted: 3201</p>
+<p>Female Promoted: 1467</p>
+<p>Percentage of female promoted employees is: 8.99%</p>
+<p>Percentage of male promoted employees is: 8.32%</p>
 
 <h3>Q5. What is the probability that a young and new employee will be promoted?</h3>
-<p>Total number of award winning employees is: 1270  and the total number of award winning employees promoted is: 559
-Probability of promotion for award-winning employees: 44.02%</p>
+<p>Total number of employees with length of service less than or equal to two: 11231</p>
+<p>Total number of employees less or equal to 30 years old: 18118</p>
+<p>Total number of employees with both conditions: 29349</p>
+<p>Total number of promoted employees with those conditions: 743</p>
+<p>Probability of promotion for those employees:2.53%</p>
 
 <hr>
 <h5> Technologies </h5>
